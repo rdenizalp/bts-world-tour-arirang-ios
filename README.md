@@ -14,7 +14,6 @@ This application consolidates essential tour information into a single, structur
 
 ---
 ## Screenshots
-## Screenshots
 
 <p align="center">
   <img src="screenshots/apptour.png" width="240" />
