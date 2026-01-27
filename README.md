@@ -31,9 +31,9 @@ This application consolidates essential tour information into a single, structur
 ## Key Features
 
 ### Tour Listing
-    -  Displays all tour stops in a unified list
+    - Displays all tour stops in a unified list
     - Supports multiple events per city
-    -  Clear, scannable event cards
+    - Clear, scannable event cards
 
 ### Region Filtering
     - Filter concerts by geographic region:
@@ -53,17 +53,17 @@ This application consolidates essential tour information into a single, structur
      - FAQ Section
 
 ### Map Integration
-    -  Interactive venue locations using MapKit
-    -  Venue-level and regional map views
-    -  3D map support for stadium exploration
+     - Interactive venue locations using MapKit
+     - Venue-level and regional map views
+     - 3D map support for stadium exploration
 
 ### External Ticketing Access
-    -  Direct redirection to official ticketing platforms
-    -  No in-app purchases or third-party SDKs
+     - Direct redirection to official ticketing platforms
+     - No in-app purchases or third-party SDKs
 
 ### Informational FAQ
-    - Presale eligibility explanation
-    - Account matching guidance (Weverse & Ticketmaster)
+     - Presale eligibility explanation
+     - Account matching guidance (Weverse & Ticketmaster)
 
 ---
 
