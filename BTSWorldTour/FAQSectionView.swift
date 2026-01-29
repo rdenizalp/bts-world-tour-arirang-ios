@@ -42,10 +42,7 @@ struct FAQSectionView: View {
                             .fontWeight(.semibold)
                             .foregroundStyle(.red)
                         Spacer()
-                        Image(systemName: "chevron.down")
-                            .rotationEffect(
-                                .degrees(expandedIDs.contains(item.id) ? 180 : 0)
-                            )
+                        
                     }
                 }
                 .tint(.primary)

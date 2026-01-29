@@ -49,6 +49,7 @@ private struct TimeBlock: View {
                 .font(.title2)
                 .fontWeight(.bold)
                 .monospacedDigit()
+                .foregroundStyle(.primary)
 
             Text(label)
                 .font(.caption2)

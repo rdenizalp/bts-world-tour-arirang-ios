@@ -29,9 +29,6 @@ struct ConcertDetail: View {
                 Link(destination: URL(string: concerts.ticketUrl)!) {
                     VStack(alignment: .leading){
                         VStack(alignment: .leading, spacing: 8) {
-                            // Arirang image
-                            
-                            
                             
                             
                             Text(concerts.city)
@@ -54,12 +51,11 @@ struct ConcertDetail: View {
                             
                             
                             
-                            
                             Divider()
                                 .overlay(
                                     Rectangle()
                                         .stroke(style: StrokeStyle(lineWidth: 1, dash: [4, 4]))
-                                        .foregroundStyle(.primary.opacity(0.5))
+                                        .foregroundStyle(.black.opacity(0.5))
                                 )
                             
                             Text(concerts.info)
@@ -128,6 +124,7 @@ struct ConcertDetail: View {
                 }
               
             }
+            .tint(.primary)
             .toolbarBackground(.automatic)
         }
         
