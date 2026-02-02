@@ -39,9 +39,10 @@ struct FAQSectionView: View {
                     HStack {
                         Text(item.question)
                             .font(.subheadline)
+                            .multilineTextAlignment(.leading)
                             .fontWeight(.semibold)
                             .foregroundStyle(.red)
-                        Spacer()
+                            Spacer()
                         
                     }
                 }
